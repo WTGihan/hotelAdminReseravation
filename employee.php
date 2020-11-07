@@ -52,7 +52,7 @@
             $user_list .= "<td>{$user['contact_num']}</td>";
             $user_list .= "<td><a href=\"modify-employee.php?emp_id={$user['emp_id']}\" class=\"edit\"><i class=\"material-icons\">edit</i>Edit</a></td>";
             $user_list .= "<td><a href=\"inc/delete-employee.inc.php?emp_id={$user['emp_id']}\" onclick=\"return confirm('Are you sure?');\" class=\"delete\"><i class=\"material-icons\">delete</i>Delete</a></td>";
-            $user_list .= "<tr>";
+            $user_list .= "</tbody>";
         }
     }
     else {
