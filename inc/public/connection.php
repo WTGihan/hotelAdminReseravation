@@ -3,7 +3,7 @@
 $dbhost = 'localhost';
 $dbuser = 'root';
 $dbpass = '';
-$dbname = 'bayfronthotelDB';  //change
+$dbname = 'bayfront_hotel';  //change
 
 $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
